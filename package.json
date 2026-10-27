@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check": "node scripts/check.mjs",
+    "serve": "npx -y serve out -l 3000"
   },
   "dependencies": {
     "next": "15.5.28",

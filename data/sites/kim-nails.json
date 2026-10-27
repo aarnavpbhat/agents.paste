@@ -3,8 +3,15 @@
   "name": "Kim Nails and Beauty Lounge",
   "hostnames": ["kimnailsandbeautylounge.com"],
   "source_url": "https://www.kimnailsandbeautylounge.com/booking",
-  "provider": "unknown",
-  "booking_urls": [],
-  "flags": [],
+  "provider": "Squarespace Scheduling",
+  "booking_urls": [
+    { "label": "Book online (Squarespace Scheduling)", "url": "https://app.squarespacescheduling.com/schedule.php?owner=28868515" }
+  ],
+  "flags": [
+    { "kind": "placeholder", "message": "The footer shows \"123 Main Street\", which looks like template text. What is your real address?", "source_url": "https://www.kimnailsandbeautylounge.com/booking" },
+    { "kind": "placeholder", "message": "The footer phone number uses a 555 exchange, which looks like template text. What is your real phone number?", "source_url": "https://www.kimnailsandbeautylounge.com/booking" },
+    { "kind": "missing", "message": "The footer Hours block is empty. Agents cannot tell customers when you are open.", "source_url": "https://www.kimnailsandbeautylounge.com/booking" },
+    { "kind": "request_booking", "message": "Bookings are confirmed within 24 hours, so agents will report them as pending, not confirmed.", "source_url": "https://www.kimnailsandbeautylounge.com/booking" }
+  ],
   "last_verified": ""
 }

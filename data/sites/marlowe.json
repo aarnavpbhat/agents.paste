@@ -3,8 +3,14 @@
   "name": "Marlowe",
   "hostnames": ["hellomarlowe.com"],
   "source_url": "https://hellomarlowe.com/",
-  "provider": "unknown",
-  "booking_urls": [],
-  "flags": [],
-  "last_verified": ""
+  "provider": "Booker",
+  "booking_urls": [
+    { "label": "Berkeley", "url": "https://go.booker.com/location/Marlowe/service-menu" },
+    { "label": "Marin", "url": "https://go.booker.com/location/MarloweMarin/service-menu" }
+  ],
+  "flags": [
+    { "kind": "conflict", "message": "Your site lists two phone numbers for Marin: (415) 888-8211 and (415) 295-7215. Which one should agents give customers?", "source_url": "https://hellomarlowe.com/" },
+    { "kind": "missing", "message": "Service durations are not listed on your website, so agents cannot tell customers how long an appointment takes.", "source_url": "https://hellomarlowe.com/" }
+  ],
+  "last_verified": "2026-10-26"
 }

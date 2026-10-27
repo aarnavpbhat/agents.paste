@@ -5,6 +5,8 @@
   "source_url": "https://www.thenailsuites.com/menu",
   "provider": "unknown",
   "booking_urls": [],
-  "flags": [],
+  "flags": [
+    { "kind": "js_only", "message": "Your menu only appears after JavaScript runs, so agents that read plain HTML see no services or prices.", "source_url": "https://www.thenailsuites.com/menu" }
+  ],
   "last_verified": ""
 }

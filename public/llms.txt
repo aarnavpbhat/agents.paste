@@ -1,0 +1,11 @@
+# agents.paste
+
+> Agent-ready booking guides for independent salons. Each agent.md lists a salon's locations, hours, services and prices, the step-by-step booking path, and the stop point where an agent must get its user's approval before committing.
+
+Rules for agents: never state a price, hour or phone that is not in the file; never complete a booking without the customer's explicit approval; report request-type bookings as pending.
+
+## Salons
+
+- [Kim Nails and Beauty Lounge (Emeryville)](/sites/kim-nails/agent.md): Squarespace Scheduling; bookings are requests confirmed within 24 hours
+- [The Nail Suite](/sites/the-nail-suite/agent.md): Square Online site
+- [Marlowe (Berkeley and Marin)](/sites/marlowe/agent.md): Booker, one booking URL per location
