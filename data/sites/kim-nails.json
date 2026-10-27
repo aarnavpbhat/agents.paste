@@ -5,13 +5,16 @@
   "source_url": "https://www.kimnailsandbeautylounge.com/booking",
   "provider": "Squarespace Scheduling",
   "booking_urls": [
-    { "label": "Book online (Squarespace Scheduling)", "url": "https://app.squarespacescheduling.com/schedule.php?owner=28868515" }
+    { "label": "Emeryville (Squarespace Scheduling)", "url": "https://app.squarespacescheduling.com/schedule.php?owner=28868515" }
   ],
   "flags": [
-    { "kind": "placeholder", "message": "The footer shows \"123 Main Street\", which looks like template text. What is your real address?", "source_url": "https://www.kimnailsandbeautylounge.com/booking" },
-    { "kind": "placeholder", "message": "The footer phone number uses a 555 exchange, which looks like template text. What is your real phone number?", "source_url": "https://www.kimnailsandbeautylounge.com/booking" },
-    { "kind": "missing", "message": "The footer Hours block is empty. Agents cannot tell customers when you are open.", "source_url": "https://www.kimnailsandbeautylounge.com/booking" },
-    { "kind": "request_booking", "message": "Bookings are confirmed within 24 hours, so agents will report them as pending, not confirmed.", "source_url": "https://www.kimnailsandbeautylounge.com/booking" }
+    { "kind": "conflict", "message": "Your site shows two phone numbers: (341) 231-9767 in the header and footer, and (510) 434-6909 on the CALL buttons and the booking page. Which one should customers call?", "source_url": "https://www.kimnailsandbeautylounge.com/" },
+    { "kind": "request_booking", "message": "Your booking widget says a booking \"does not confirm your appointment\" and that you confirm by text, so agents will tell customers their appointment is pending until you confirm.", "source_url": "https://app.squarespacescheduling.com/schedule.php?owner=28868515" },
+    { "kind": "missing", "message": "Your services page lists no prices, and 27 of the 59 services in your booking widget (including all manicures, pedicures and nail enhancements) have no price. Agents cannot quote a price for these.", "source_url": "https://www.kimnailsandbeautylounge.com/services" },
+    { "kind": "price_range", "message": "Several booking-widget prices are minimums or vary (\"5+\", \"$10+\", \"$5+ each\", \"Regular polish $40+\", \"Price varies\"), so agents can only quote a starting price for those services.", "source_url": "https://app.squarespacescheduling.com/schedule.php?owner=28868515" },
+    { "kind": "conflict", "message": "Some service lengths differ between your services page and your booking widget: Acrylic Full Set 40 vs 50 min, Acrylic Full Set Gel 45 vs 60 min, Acrylic Refill 35 vs 40 min, Acrylic Refill Gel 45 vs 50 min, Full Face wax 30 vs 20 min. Which are correct?", "source_url": "https://www.kimnailsandbeautylounge.com/services" },
+    { "kind": "missing", "message": "Some services on your services page cannot be booked online: lash fills (1 to 4 week), permanent makeup follow-ups, Classic pedicure, Color powder full set, Dip with tips, Dip on natural nails, Gel X Removal and Massage. Agents will tell customers to call for these.", "source_url": "https://www.kimnailsandbeautylounge.com/services" },
+    { "kind": "missing", "message": "Your site has no cancellation, late-arrival or no-show policy, so agents cannot tell customers about fees.", "source_url": "https://www.kimnailsandbeautylounge.com/booking" }
   ],
-  "last_verified": ""
+  "last_verified": "2026-10-27"
 }

@@ -6,6 +6,6 @@ Rules for agents: never state a price, hour or phone that is not in the file; ne
 
 ## Salons
 
-- [Kim Nails and Beauty Lounge (Emeryville)](/sites/kim-nails/agent.md): Squarespace Scheduling; bookings are requests confirmed within 24 hours
-- [The Nail Suite](/sites/the-nail-suite/agent.md): Square Online site
+- [Kim Nails and Beauty Lounge (Emeryville)](/sites/kim-nails/agent.md): Squarespace Scheduling; online bookings are requests the salon confirms by text
+- [The Nail Suite (Berkeley)](/sites/the-nail-suite/agent.md): Square Appointments, instant booking, card on file
 - [Marlowe (Berkeley and Marin)](/sites/marlowe/agent.md): Booker, one booking URL per location

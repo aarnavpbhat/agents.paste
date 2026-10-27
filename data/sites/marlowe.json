@@ -9,8 +9,12 @@
     { "label": "Marin", "url": "https://go.booker.com/location/MarloweMarin/service-menu" }
   ],
   "flags": [
-    { "kind": "conflict", "message": "Your site lists two phone numbers for Marin: (415) 888-8211 and (415) 295-7215. Which one should agents give customers?", "source_url": "https://hellomarlowe.com/" },
-    { "kind": "missing", "message": "Service durations are not listed on your website, so agents cannot tell customers how long an appointment takes.", "source_url": "https://hellomarlowe.com/" }
+    { "kind": "conflict", "message": "Your site shows two phone numbers for Marin: (415) 888-8211 in the homepage 'Locations & hours' section and (415) 295-7215 in the footer and on the Contact page. Which one should agents give customers?", "source_url": "https://hellomarlowe.com/" },
+    { "kind": "conflict", "message": "Your Groups page gives two different admin fees: the package cards say '20% gratuity + 20% admin fee' but the FAQ says '20% gratuity and 10% administrative fee'. Which is correct?", "source_url": "https://hellomarlowe.com/pages/groups" },
+    { "kind": "conflict", "message": "Group cancellation rules differ: your Policies page says groups of 5-7 can cancel free up to 48 hours ahead, but your Groups page says weekend/holiday groups of 5-9 have a 7-day cancellation policy.", "source_url": "https://hellomarlowe.com/pages/policies-faq" },
+    { "kind": "missing", "message": "Service durations are not listed on your website, so agents cannot tell customers how long an appointment takes.", "source_url": "https://hellomarlowe.com/" },
+    { "kind": "js_only", "message": "Your Booker booking pages load every service, price and time with JavaScript, so tools that read plain web pages see nothing. We could not confirm the service names, durations, booking steps, or whether bookings are instant or need your approval.", "source_url": "https://go.booker.com/location/Marlowe/service-menu" },
+    { "kind": "price_range", "message": "Your homepage lists parties 'starting at $1,400 per party', and party gift bags are 'starting at $15/guest', so agents cannot quote an exact party price.", "source_url": "https://hellomarlowe.com/pages/parties" }
   ],
-  "last_verified": "2026-10-26"
+  "last_verified": "2026-10-27"
 }

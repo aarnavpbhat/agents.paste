@@ -123,7 +123,7 @@ dd li { overflow-wrap: anywhere; }
 .prose { padding: 24px 0; }
 .prose h1 { font-size: 40px; margin: 24px 0 16px; }
 .prose h2 { font-size: 26px; margin: 44px 0 12px; padding-top: 14px; border-top: 1px solid var(--rule); }
-.prose p, .prose li { font-size: 17px; }
+.prose p, .prose li { font-size: 17px; overflow-wrap: anywhere; }
 .prose ol, .prose ul { padding-left: 1.3em; }
 .table-wrap { overflow-x: auto; margin: 16px 0; border-top: 1px solid var(--rule-strong); border-bottom: 1px solid var(--rule-strong); }
 .prose table { border-collapse: collapse; width: 100%; font-size: 15px; }

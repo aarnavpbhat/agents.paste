@@ -3,10 +3,16 @@
   "name": "The Nail Suite",
   "hostnames": ["thenailsuites.com"],
   "source_url": "https://www.thenailsuites.com/menu",
-  "provider": "unknown",
-  "booking_urls": [],
-  "flags": [
-    { "kind": "js_only", "message": "Your menu only appears after JavaScript runs, so agents that read plain HTML see no services or prices.", "source_url": "https://www.thenailsuites.com/menu" }
+  "provider": "Square Appointments",
+  "booking_urls": [
+    { "label": "Berkeley", "url": "https://book.squareup.com/appointments/cq18m9aqpprssp/location/LXQZDYYZ6AMM8/services" }
   ],
-  "last_verified": ""
+  "flags": [
+    { "kind": "js_only", "message": "Your menu only appears after JavaScript runs, so agents that read plain HTML see no services or prices.", "source_url": "https://www.thenailsuites.com/menu" },
+    { "kind": "placeholder", "message": "The phone number in your website footer, 512-555-0126, uses a 555 number and looks like a template placeholder. Your booking page lists (510) 408-6448.", "source_url": "https://www.thenailsuites.com/" },
+    { "kind": "conflict", "message": "Your website footer gives the address as 1274 Alhambra Court, San Francisco, CA 94107, but your Square booking page says 809 Delaware St, Berkeley, CA 94710. Please update the one that is wrong.", "source_url": "https://www.thenailsuites.com/" },
+    { "kind": "conflict", "message": "Your website footer says Monday to Saturday 9am to 5pm, closed Sunday. Your Square booking page says 10am to 7pm every day except Tuesday (closed). Please make them match.", "source_url": "https://book.squareup.com/appointments/cq18m9aqpprssp/location/LXQZDYYZ6AMM8/services" },
+    { "kind": "missing", "message": "Your website menu does not list any add-ons (gel removal, Gel-X removal, French, chrome, cat eye, nail art, paraffin, callus care). They only appear on your Square booking page, so customers and agents reading the menu miss them.", "source_url": "https://www.thenailsuites.com/menu" }
+  ],
+  "last_verified": "2026-10-27"
 }
